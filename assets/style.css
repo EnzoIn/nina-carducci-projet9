@@ -89,10 +89,6 @@ body {
 	width: 80%;
 	font-size: 14px;
 }
-
-#gallery {
-	/*	min-height: 100vh; */
-}
 .title{
 	text-align: center;
 	padding-block: 2em;
@@ -243,6 +239,17 @@ input[type="submit"] {
 	background-color: #BEB45A;
 	padding: .5em 1em
 }
+footer {
+  background-color: #13623d;
+  padding-block: 2em;
+  color: white;
+  text-align: center;
+}
+
+footer a {
+	color: white;
+	text-decoration: none;
+}
 
 @media all and (max-width: 1180px) {
 	.picture {
@@ -351,6 +358,9 @@ input[type="submit"] {
 	}
 	.picture {
 		width: 80%;
+	}
+	footer p {
+		font-size: 0.8rem;
 	}
 }
 
