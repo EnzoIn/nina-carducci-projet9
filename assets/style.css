@@ -69,7 +69,6 @@ body {
 
 .picture img {
 	width: 100%;
-
 }
 #about-me {
 	flex: 2
@@ -101,6 +100,7 @@ body {
 	color: #fff;
 	background-color: #5B5524;
 	border-radius:0 ;
+	cursor: pointer;
 }
 .nav-pills .nav-link {
 	color: #000
